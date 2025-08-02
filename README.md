@@ -10,3 +10,6 @@ This simulator manages traffic at a junction with 12 lanes (A1-A3, B1-B3, C1-C3,
 - **High-Priority Condition**: Prioritizes lane A2 when it has >10 vehicles, until <5.
 - **Emergency Condition**: Serves any lane with >15 vehicles immediately.
 - **Visualization**: Displays roads, vehicles, and traffic lights with animations.
+
+
+The system uses file-based communication (`vehicles.data`) between the simulator and a vehicle generator, with thread-safe queue processing.
