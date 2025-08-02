@@ -14,10 +14,10 @@ This simulator manages traffic at a junction with 12 lanes (A1-A3, B1-B3, C1-C3,
 
 ## 📂 Project Structure
 
-`simulator.c`: Main program with GUI, queue processing, and traffic logic.
-`traffic_generator.c`: Generates random vehicles, writes to vehicles.data.
-`queue.c`: Implements queue operations (enqueue, dequeue, etc.).
-`queue.h`: Defines queue structures and prototypes.
+- `simulator.c`: Main program with GUI, queue processing, and traffic logic.
+- `traffic_generator.c`: Generates random vehicles, writes to vehicles.data.
+- `queue.c`: Implements queue operations (enqueue, dequeue, etc.).
+- `queue.h`: Defines queue structures and prototypes.
 
 
 The system uses file-based communication (`vehicles.data`) between the simulator and a vehicle generator, with thread-safe queue processing.
