@@ -55,3 +55,11 @@ The system uses file-based communication (`vehicles.data`) between the simulator
    
    ```bash
    ./sim
+
+
+## 📊 How it Works?
+
+- Vehicle Generation: traffic_generator.c creates vehicles (e.g., AB0CD123) every 1.5 seconds, writing to vehicles.data.
+- File Reading: simulator.c reads vehicles.data in a thread, enqueuing vehicles to the correct lane.
+- Queue Processing: A thread processes one vehicle every 4 seconds.
+- Visualization: SDL2 renders the junction, vehicles (with license plates), and traffic lights with smooth transitions.
