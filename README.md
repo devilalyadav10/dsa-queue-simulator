@@ -37,19 +37,21 @@ The system uses file-based communication (`vehicles.data`) between the simulator
 - **OS**: Linux (tested on Ubuntu; Windows untested, see [SDL2 Installation](https://wiki.libsdl.org/SDL2/Installation))
 
 ### Installation
-1. **Install Dependencies and compile** (Ubuntu):
+1. **Install Dependencies** (Ubuntu):
 
    ```bash
    sudo apt update
    sudo apt install gcc libsdl2-dev libsdl2-ttf-dev
+
+2. **Compile:
    ```bash
    gcc simulator.c queue.c -o simulator -lSDL2 -lSDL2_ttf -pthread
    gcc traffic_generator.c -o traffic_generator
-2. **Run traffic_gen in one terminal**:
+3. **Run traffic_gen in one terminal**:
    
    ```bash
    ./traffic_gen
-3. **Run simulator in another terminal**:
+4. **Run simulator in another terminal**:
    
    ```bash
    ./sim
