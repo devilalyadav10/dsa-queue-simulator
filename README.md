@@ -27,3 +27,11 @@ The system uses file-based communication (`vehicles.data`) between the simulator
 - **GUI**: SDL2-based visualization with animated lights and vehicle movement.
 - **Multithreading**: Separate threads for GUI rendering, queue processing, and file reading.
 - **Logging**: Console output for vehicle additions, dequeues, and queue status.
+
+
+## 🛠️ Installation & Setup
+
+### Prerequisites
+- **Compiler**: GCC
+- **Libraries**: SDL2, SDL2_ttf, pthread
+- **OS**: Linux (tested on Ubuntu; Windows untested, see [SDL2 Installation](https://wiki.libsdl.org/SDL2/Installation))
