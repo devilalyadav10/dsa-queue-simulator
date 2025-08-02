@@ -41,3 +41,9 @@ The system uses file-based communication (`vehicles.data`) between the simulator
    ```bash
    sudo apt update
    sudo apt install gcc libsdl2-dev libsdl2-ttf-dev
+2. **Run traffic_gen in one terminal:
+   ```bash
+   ./traffic_gen
+3. **Run simulator in another terminal:
+   ```bash
+   ./sim
