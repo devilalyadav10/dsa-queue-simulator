@@ -13,3 +13,17 @@ This simulator manages traffic at a junction with 12 lanes (A1-A3, B1-B3, C1-C3,
 
 
 The system uses file-based communication (`vehicles.data`) between the simulator and a vehicle generator, with thread-safe queue processing.
+
+## 📋 Features
+
+- **Queue Management**:
+  - 12 vehicle queues (one per lane).
+  - Priority queue for lane scheduling, with A2 prioritized at >10 vehicles.
+- **Traffic Logic**:
+  - Normal: Highest vehicle count lane served.
+  - High-Priority: A2 served first if >10 vehicles.
+  - Emergency: Immediate service for lanes with >15 vehicles.
+  - One lane green at a time to avoid deadlock.
+- **GUI**: SDL2-based visualization with animated lights and vehicle movement.
+- **Multithreading**: Separate threads for GUI rendering, queue processing, and file reading.
+- **Logging**: Console output for vehicle additions, dequeues, and queue status.
