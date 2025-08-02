@@ -42,7 +42,7 @@ The system uses file-based communication (`vehicles.data`) between the simulator
    ```bash
    sudo apt update
    sudo apt install gcc libsdl2-dev libsdl2-ttf-dev
-
+   ```bash
    gcc simulator.c queue.c -o simulator -lSDL2 -lSDL2_ttf -pthread
    gcc traffic_generator.c -o traffic_generator
 2. **Run traffic_gen in one terminal**:
