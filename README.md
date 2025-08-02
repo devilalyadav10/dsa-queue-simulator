@@ -35,3 +35,9 @@ The system uses file-based communication (`vehicles.data`) between the simulator
 - **Compiler**: GCC
 - **Libraries**: SDL2, SDL2_ttf, pthread
 - **OS**: Linux (tested on Ubuntu; Windows untested, see [SDL2 Installation](https://wiki.libsdl.org/SDL2/Installation))
+
+### Installation
+1. **Install Dependencies** (Ubuntu):
+   ```bash
+   sudo apt update
+   sudo apt install gcc libsdl2-dev libsdl2-ttf-dev
