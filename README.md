@@ -1,4 +1,4 @@
-<img width="320" height="240" alt="image" src="https://github.com/user-attachments/assets/d98b1ced-fa79-49c9-9009-0150e8786fc8" /># 🚦 Traffic Junction Simulator
+## 🚦 Traffic Junction Simulator
 
 Welcome to the **Traffic Junction Simulator** for **COMP202: Data Structures and Algorithms** (Jan 2025). This project simulates a traffic intersection with four roads (A, B, C, D), each with three lanes, using queue-based vehicle management and SDL2 for visualization. 🚗
 
