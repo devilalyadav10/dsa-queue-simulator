@@ -71,3 +71,11 @@ The system uses file-based communication (`vehicles.data`) between the simulator
 - File Reading: simulator.c reads vehicles.data in a thread, enqueuing vehicles to the correct lane.
 - Queue Processing: A thread processes one vehicle every 4 seconds.
 - Visualization: SDL2 renders the junction, vehicles (with license plates), and traffic lights with smooth transitions.
+
+
+## 📚 References
+
+- SDL2 Documentation
+- Standard C libraries (stdio, string, etc.)
+- Assignment-1-LinearDataStructure.pdf
+- guide.txt
